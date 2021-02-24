@@ -23,7 +23,6 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
-  /* font-family: 'Fira Sans', sans-serif; */
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -64,4 +63,133 @@ body {
   color: #fefefe;
   font-size: 18px;
   line-height: 21px;
+}
+
+.top__heading {
+  display: flex;
+  padding: 50px 0 30px;
+}
+
+.top__content {
+  text-align: center;
+  padding-top: 90px;
+  width: 50%;
+}
+
+.top__title {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  margin: 0 auto 20px;
+  min-width: 455px;
+}
+
+.top__text {
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0 auto 60px;
+  min-width: 470px;
+}
+
+.application-btn {
+  text-transform: uppercase;
+  color: #fefefe;
+  background: #c5ac2d;
+  padding: 16px 19px;
+  transition: all 0.5s;
+  border: 1 px solid transparent;
+}
+
+.application-btn:hover {
+  color: #c5ac2d;
+  background-color: #fefefe;
+  border: 1px solid #c5ac2d;
+}
+
+.top__slider {
+  max-width: 50%;
+}
+
+.top__slider .slick-dots {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slick-dots {
+  list-style: none;
+  text-align: center;
+}
+
+.slick-dots button {
+  font-size: 0;
+  width: 8px;
+  height: 8px;
+  background-color: #332208;
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.slick-active button {
+  width: 16px;
+  height: 16px;
+}
+
+.top__slider-text {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  padding-right: 100px;
+  text-align: right;
+}
+
+.top__slider-text span + span {
+  padding-left: 12px;
+}
+
+.top__bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.top__items {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top__item {
+  border: 1px solid #1b1818;
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.top__item:hover {
+  transform: scale(1.25);
+}
+
+.top__links {
+  padding-right: 80px;
+}
+
+.top__link {
+  color: #1b1818;
+  border-bottom: 1px solid #1b1818;
+}
+
+.top__link + .top__link {
+  margin-left: 20px;
 }
