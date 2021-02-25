@@ -103,6 +103,7 @@ body {
   padding: 16px 19px;
   transition: all 0.5s;
   border: 1 px solid transparent;
+  display: inline-block;
 }
 
 .application-btn:hover {
@@ -389,7 +390,6 @@ body {
   text-align: center;
 }
 
-/* .reviews__slider .slick-dots button { */
 .slick-dots button {
   font-size: 0;
   width: 8px;
@@ -416,4 +416,67 @@ body {
 .reviews__slider .slick-active button {
   width: 16px;
   height: 16px;
+}
+
+.feedback {
+  padding: 100px 0;
+}
+
+.feedback__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feedback__images {
+  width: 50%;
+}
+
+.feedback__form {
+  width: 415px;
+  margin: 0 auto;
+}
+
+.feedback__title {
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 5px;
+}
+
+.feedback__text {
+  margin-bottom: 30px;
+}
+
+.feedback__input {
+  display: block;
+  padding: 20px 0;
+  width: 100%;
+  border: none;
+  color: #1b1818;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.feedback__input::placeholder {
+  line-height: 19px;
+  font-size: 16px;
+  color: #1b1818;
+  font-weight: 400;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.feedback__btn {
+  text-transform: uppercase;
+  color: #fefefe;
+  border: none;
+  display: inline-block;
+  padding: 16px 36px 15px;
+  background-color: #c5ac2d;
+  margin-top: 50px;
+  font-weight: 400;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  line-height: 19px;
 }
